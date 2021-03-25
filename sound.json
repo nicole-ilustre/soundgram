@@ -1,0 +1,25 @@
+{
+    "puppies": [
+      {
+        "id": 1,
+        "name": "cat",
+        "owner": "Fred",
+        "sound": "",
+        "breed": "Labrador"
+      },
+      {
+        "id": 2,
+        "name": "washing machine",
+        "owner": "Chloe",
+        "sound": "",
+        "breed": "Labrador"
+      },
+      {
+        "id": 3,
+        "name": "doorbell",
+        "owner": "Michael",
+        "sound": "",
+        "breed": "Rottweiler"
+      }
+    ]
+}
