@@ -55,14 +55,14 @@ button {
     width: 100px;
 }
 
-#doorbell {
+#doorbell-result {
     background-image: url("images/doorbell.jpg");
 }
 
-#washing-machine {
+#washing-machine-result {
     background-image: url("images/washing-machine.jpg");
 }
 
-#cat {
+#cat-result {
     background-image: url("images/cat.jpg");
 }
