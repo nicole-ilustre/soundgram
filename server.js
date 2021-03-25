@@ -2,6 +2,7 @@ const express = require('express')
 const hbs = require('express-handlebars')
 
 const server = express()
+server.use('/designs', express.static(__dirname + '../public/designs'))
 
 // Server configuration
 server.use(express.static('public'))
