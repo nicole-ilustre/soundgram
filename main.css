@@ -5,8 +5,6 @@ body {
     background-color: rgb(26, 25, 25);
     text-align: center;
     vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h1 {
@@ -16,7 +14,7 @@ h1 {
 }
 
 div {
-    background-image: url("music-clipart.jpg");
+    background-image: url("images/question-mark.jpg");
     background-color: #cccccc;
     margin-left: auto;
     margin-right: auto;
@@ -24,10 +22,47 @@ div {
     margin-top: 40px;
     margin-bottom: 20px;
     border: 2px solid black;
-    width: 100px;
-    height: 100px
+    width: 200px;
+    height: 200px
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button, span {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: block;
+    font-family: 'Unica One', cursive;
+    border-radius: 5px;
+    background-color: #cccccc;
+    font-size: 20px;
+    margin-top: 20px;
+}
+p {
+    font-size: 30px;
+    font-family: 'Unica One', cursive;
+    color: #cccccc;
 }
 
 button {
-    margin-top: 20px;
+    width: 100px;
+}
+
+#doorbell {
+    background-image: url("images/doorbell.jpg");
+}
+
+#washing-machine {
+    background-image: url("images/washing-machine.jpg");
+}
+
+#cat {
+    background-image: url("images/cat.jpg");
 }
