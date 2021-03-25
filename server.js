@@ -13,7 +13,8 @@ server.set('view engine', 'hbs')
 
 
 server.get('/', (req, res) => {
-    res.send("Hello there!")
+    // res.send("Hello there!")
+    res.render('home')
 })
 
 module.exports = server
