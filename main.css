@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+body {
+    background-color: rgb(26, 25, 25);
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 75px;
+    color: rgb(204, 203, 203);
+}
+
 div {
+    background-image: url("music-clipart.jpg");
+    background-color: #cccccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
     border: 2px solid black;
     width: 100px;
     height: 100px
+}
+
+button {
+    margin-top: 20px;
 }
