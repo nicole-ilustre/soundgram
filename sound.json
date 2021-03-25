@@ -1,25 +1,19 @@
 {
-    "puppies": [
+    "sounds": [
       {
         "id": 1,
-        "name": "cat",
-        "owner": "Fred",
-        "sound": "",
-        "breed": "Labrador"
+        "expected": "cat",
+        "sound": "/sounds/cat.wav"
       },
       {
         "id": 2,
-        "name": "washing machine",
-        "owner": "Chloe",
-        "sound": "",
-        "breed": "Labrador"
+        "expected": "washing machine",
+        "sound": "/sounds/doorbell.wav"
       },
       {
         "id": 3,
-        "name": "doorbell",
-        "owner": "Michael",
-        "sound": "",
-        "breed": "Rottweiler"
+        "expected": "doorbell",
+        "sound": "/sounds/washingmachine"
       }
     ]
-}kvjdlkadjaklsjljadlflkfaslkfjs
+}
