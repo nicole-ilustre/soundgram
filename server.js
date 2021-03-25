@@ -18,8 +18,9 @@ server.get('/', (req, res) => {
 })
 
 server.get('/result', (req, res) => {
-    // res.send("Hello there!")
+    
     res.render('result')
 })
+
 
 module.exports = server
