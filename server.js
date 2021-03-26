@@ -31,10 +31,10 @@ server.post('/result', (req, res) => {
     const obj = JSON.parse(data)
     const doorbell = obj.sounds.find(item => item.expected === 'doorbell')
     doorbell.actual = req.body.answer1
-    const cat = obj.sounds.find(item => item.expected === 'cat')
-    cat.actual = req.body.answer2
     const laundry = obj.sounds.find(item => item.expected === 'laundry')
-    laundry.actual = req.body.answer3
+    laundry.actual = req.body.answer2
+    const cat = obj.sounds.find(item => item.expected === 'cat')
+    cat.actual = req.body.answer3
     fs.writeFile('./sound.json', JSON.stringify(obj), (err) => {
       if (err) console.log(err)
       res.redirect('/result')
