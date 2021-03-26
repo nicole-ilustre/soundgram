@@ -1,9 +1,10 @@
-  <div id="doorbell"></div>
-  <input type="text" placeholder="Type your guess here">
+  <form action="/result" method="post"><div id="doorbell"></div>
+  <input name="answer1" type="text" placeholder="Type your guess here">
   <div id="washing-machine"></div>
-  <input type="text" placeholder="Type your guess here">
+  <input name="answer2" type="text" placeholder="Type your guess here">
   <div id="cat"></div>
-  <input type="text" placeholder="Type your guess here">
-  <button type="submit"><a href="/result">SUBMIT</a></button>
+  <input name="answer3" type="text" placeholder="Type your guess here">
+  <input type="submit" value="submit"/>
 
   <script src="/main.js"></script>
+  </form>
