@@ -1,1 +1,1 @@
-{"sounds":[{"id":1,"expected":"doorbell","actual":"doorbell","sound":"/sounds/doorbell.wav"},{"id":2,"expected":"washingmachine","actual":"washingmachine","sound":"/sounds/washingmachine.mp3"},{"id":3,"expected":"cat","actual":"cat","sound":"/sounds/cat.wav"}]}
+{"sounds":[{"id":1,"expected":"doorbell","actual":"doorbell","sound":"/sounds/doorbell.wav"},{"id":2,"expected":"laundry","actual":"cat","sound":"/sounds/laundry.mp3"},{"id":3,"expected":"cat","actual":"laundry","sound":"/sounds/cat.wav"}]}

@@ -18,12 +18,12 @@ function playCat () {
   cat.play()
 }
 
-const washingMachine = document.createElement('audio')
-washingMachine.setAttribute('id', 'washing-machine')
-washingMachine.src = '/sounds/washingmachine.mp3'
+const laundry = document.createElement('audio')
+laundry.setAttribute('id', 'laundry')
+laundry.src = '/sounds/laundry.mp3'
 
-document.getElementById('washing-machine').addEventListener('click', playWashingMachine)
+document.getElementById('laundry').addEventListener('click', playlaundry)
 
-function playWashingMachine () {
-  washingMachine.play()
+function playlaundry () {
+ laundry.play()
 }
