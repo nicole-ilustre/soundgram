@@ -17,7 +17,11 @@ server.get('/', (req, res) => {
 })
 
 server.get('/result', (req, res) => {
-  res.render('result')
+  fs.readFile('./sound.json', 'utf8', (err, data) => {
+    if (err) console.log(err)
+    const obj = JSON.parse(data)
+    res.render('result', obj)
+  })
 })
 
 
@@ -31,9 +35,6 @@ server.post('/result', (req, res) => {
     cat.actual = req.body.answer2
     const washingmachine = obj.sounds.find(item => item.expected === 'washingmachine')
     washingmachine.actual = req.body.answer3
-    console.log(doorbell.actual)
-    console.log(cat.actual)
-    console.log(washingmachine.actual)
     fs.writeFile('./sound.json', JSON.stringify(obj), (err) => {
       if (err) console.log(err)
       res.redirect('/result')

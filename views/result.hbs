@@ -1,13 +1,7 @@
 
-  <div  id="doorbell-result"></div>
-  <span>DOORBELL</span>
-  <span>{{doorbell.actual}}</span>
-  <div id="washing-machine-result"></div>
-  <span>WASHING MACHINE</span>
-  <span>USER ANSWER 2</span>
-  <div id="cat-result"></div>
-  <span>CAT</span>
-  <span>USER ANSWER 3</span>
-  <p>SCORE:</p>
-  <p id="score">0</p>
+{{#each sounds}}
+<div  id="{{expected}}-result"></div>
+  <span>CORRECT ANSWER: {{expected}}</span>
+  <span>{{actual}}</span>
+{{/each}}
   
